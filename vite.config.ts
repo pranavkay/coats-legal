@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // 'base' set to './' allows assets to be loaded correctly on GitHub Pages
-  base: './',
+  base: "/coats-legal/",
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
